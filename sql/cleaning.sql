@@ -1,3 +1,42 @@
+
+---
+
+## 3. Feature Engineering
+To support deeper analysis and Tableau visualizations, several engineered fields were created:
+
+### Groupings
+- **age_group** (Young Adult, Adult, Senior)  
+- **bmi_category** (Underweight, Healthy, Overweight, Obese)  
+- **children_group** (0, 1–2, 3+)  
+
+### Flags
+- smoker_flag  
+- diabetic_flag  
+- region_code  
+
+### Interaction Terms
+- **bmi_smoker_interaction**  
+- **age_diabetic_interaction**  
+- **children_smoker_interaction**  
+
+### Composite Risk Score
+A weighted score combining:
+- BMI  
+- smoking  
+- diabetes  
+- age  
+- blood pressure  
+
+These engineered features significantly improved interpretability and model‑readiness.
+
+---
+
+## 4. SQL Analysis
+All analytical queries are stored in:
+
+----------------------------------------------------------------------
+
+
 CREATE OR REPLACE TABLE 
   `my-healthcare-project-487800.Insurance_claim_Analysis_Demographic_Project3.engineered_claims_cleaned` AS
 SELECT
