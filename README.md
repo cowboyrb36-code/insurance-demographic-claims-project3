@@ -140,7 +140,14 @@ Full details are in:
 - **Tableau**  
 - **GitHub**  
 - **Data Cleaning & Feature Engineering**  
-- **Statistical Analysis**  
+- **Statistical Analysis**
+
+## 📄 Full Dashboard (PDF)
+
+For a complete view of the Tableau dashboard, you can open the full PDF export:
+
+[View Full Dashboard (PDF)](docs/screenshots/dashboard_full.pdf)
+
 
 ---
 
