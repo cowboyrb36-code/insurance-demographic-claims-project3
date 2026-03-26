@@ -152,8 +152,6 @@ Focused on SQL, analytics workflows, and operational decision systems.
 
 ---
 
-## 📬 Contact
 
-(Insert LinkedIn or portfolio link here if you want.)
 
 
