@@ -1,4 +1,7 @@
-CREATE OR REPLACE TABLE 
+CLEANING SCRIPT
+  
+  
+  CREATE OR REPLACE TABLE 
   `my-healthcare-project-487800.Insurance_claim_Analysis_Demographic_Project3.engineered_claims_cleaned` AS
 SELECT
     -- TEXT COLUMNS
